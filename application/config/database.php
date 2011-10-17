@@ -42,11 +42,11 @@ include( 'config.php' );
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = $db_hostname;
-$db['default']['username'] = $db_username;
-$db['default']['password'] = $db_password;
-$db['default']['database'] = $db_database;
-$db['default']['dbdriver'] = $db_dbdriver;
+$db['default']['hostname'] = '10.194.111.8';
+$db['default']['username'] = 'user_325baee2';
+$db['default']['password'] = 'DLTio8ODpSFSm6';
+$db['default']['database'] = 'db_325baee2';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
